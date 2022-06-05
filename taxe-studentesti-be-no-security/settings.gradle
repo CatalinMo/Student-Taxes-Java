@@ -1,0 +1,5 @@
+rootProject.name = 'taxe-studentesti-be-no-security'
+include 'student-taxes-api'
+include 'student-taxes-impl'
+include 'student-taxes-app'
+

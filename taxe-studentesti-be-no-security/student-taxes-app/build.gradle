@@ -1,0 +1,11 @@
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.student.taxes.StudentTaxesApplication'
+    }
+}
+
+dependencies {
+    implementation project(':student-taxes-api')
+    runtime project(':student-taxes-impl')
+
+}
